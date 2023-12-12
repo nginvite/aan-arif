@@ -1,0 +1,14 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 12 Dec 2023 21:46:47 at https://satumomen.com/preview/vintage-peacock +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://satumomen.com/preview/vintage-peacock -O1 "D:\DATA D\HAE\Undangan\Nginvite-v2" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+21:48:47	Error: 	"Unknown error" (524) at link https://unpkg.com/@phosphor-icons/web@2.0.3/src/fill/Phosphor-Fill.svg (from https://unpkg.com/@phosphor-icons/web@2.0.3/src/fill/style.css)
+21:48:47	Error: 	"Not Found" (404) at link https://satumomen.com/fonts/million_dreams/milliondreams-webfont.woff2 (from https://satumomen.com/fonts/million_dreams/fonts.css)
+21:48:47	Error: 	"Not Found" (404) at link https://satumomen.com/fonts/million_dreams/milliondreams-webfont.woff (from https://satumomen.com/fonts/million_dreams/fonts.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 0 seconds : 59 links scanned, 54 files written (8708209 bytes overall) [7709793 bytes received at 64248 bytes/sec], 1735645 bytes transferred using HTTP compression in 26 files, ratio 39%, 3.1 requests per connection
+(3 errors, 0 warnings, 0 messages)
