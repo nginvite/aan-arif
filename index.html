@@ -1,5 +1,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-	<meta HTTP-EQUIV="Refresh" CONTENT="0; URL=satumomen.com/preview/vintage-peacock.html">
+  <meta
+    http-equiv="Refresh"
+    content="0; URL=satumomen.com/preview/vintage-peacock.html"
+  />
 </html>
-
-
+<script>
+  const querystring = window.location.search.substring(1);
+  let decoded = "?" + decodeURI(querystring);
+  window.location.replace(
+    "satumomen.com/preview/vintage-peacock.html" + (querystring ? decoded : "")
+  );
+</script>
