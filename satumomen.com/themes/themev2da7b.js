@@ -12,7 +12,7 @@
   if (querystring != null || querystring != undefined) {
     const guestName = querystring.split("=")[1];
     let decoded = decodeURI(guestName);
-    guestQuery = decoded.replace("+", " ");
+    guestQuery = decoded.replaceAll("+", " ");
   }
 
   var e,
